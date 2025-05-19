@@ -1,0 +1,9 @@
+[package]
+name = "transformapi"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+actix-web = "4"
+kuchikiki = "=0.8.2"
+serde = { version = "1", features = ["derive"] }
